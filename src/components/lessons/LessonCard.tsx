@@ -130,15 +130,18 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, viewMode = 'grid
   return (
     <div className="group relative rounded-xl border border-slate-800 bg-slate-900/80 hover:border-amber-500/40 hover:bg-slate-900 transition duration-200 flex flex-col justify-between overflow-hidden shadow-sm hover:shadow-lg">
       <div>
-        {/* Poster / Artwork Header */}
-        <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950 border-b border-slate-800">
+        {/* Vertical Theatrical Poster Frame (2:3 Aspect Ratio) */}
+        <div className="relative aspect-[2/3] w-full overflow-hidden bg-slate-950 border-b border-slate-800">
           <PosterImage
             posterPath={lesson.imageAttribution?.posterPath}
             filmTitle={lesson.filmTitle}
             releaseYear={lesson.releaseYear}
             className="w-full h-full"
-            imageClassName="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100"
+            imageClassName="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500 opacity-95 group-hover:opacity-100"
           />
+
+          {/* Subtle bottom vignette to blend seamlessly into card */}
+          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-slate-950/70 to-transparent pointer-events-none" />
 
           {/* Subject tag overlay */}
           <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-1.5">

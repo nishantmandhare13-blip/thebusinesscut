@@ -404,7 +404,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for Air (2023)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Air_original_game_cover.jpg/330px-Air_original_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://image.tmdb.org/t/p/original/76AKQPdH3M8cvsFR9K8JsOzVlY5.jpg"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2929,7 +2929,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for Ex Machina (2014)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/330px-Ex-machina-uk-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3838,7 +3838,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for Air (2023)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Air_original_game_cover.jpg/330px-Air_original_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://image.tmdb.org/t/p/original/76AKQPdH3M8cvsFR9K8JsOzVlY5.jpg"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5757,7 +5757,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for The Dropout (2022)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Dropout_Logo.png/330px-The_Dropout_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Dropout_Logo.png"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8080,7 +8080,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for 12 Angry Men (1957)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/12_Angry_Men_%281957_film_poster%29.jpg/330px-12_Angry_Men_%281957_film_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10403,7 +10403,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for Ex Machina (2014)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/330px-Ex-machina-uk-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10504,7 +10504,7 @@ export const SEED_LESSONS: Lesson[] = [
       "source": "editorial_verified",
       "license": "Fair Use / Educational Commentary & Official Artwork",
       "notes": "Verified cinematic artwork for Dopesick (2021)",
-      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/Dopesick_%28miniseries%29_Title_Card.png/330px-Dopesick_%28miniseries%29_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/6e/Dopesick_%28miniseries%29_Title_Card.png"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",

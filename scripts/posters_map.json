@@ -2,7 +2,7 @@
   "Jobs:::2013": "https://upload.wikimedia.org/wikipedia/en/e/e0/Jobs_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "The Founder:::2016": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Founder_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Chef:::2014": "https://upload.wikimedia.org/wikipedia/en/b/b8/Chef_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "Air:::2023": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Air_original_game_cover.jpg/330px-Air_original_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Air:::2023": "https://image.tmdb.org/t/p/original/76AKQPdH3M8cvsFR9K8JsOzVlY5.jpg",
   "Her:::2013": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Julie & Julia:::2009": "https://upload.wikimedia.org/wikipedia/en/0/00/Julie_and_julia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Ratatouille:::2007": "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -26,7 +26,7 @@
   "A Beautiful Mind:::2001": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Contagion:::2011": "https://upload.wikimedia.org/wikipedia/en/8/86/Contagion_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Iron Man:::2008": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "Ex Machina:::2014": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/330px-Ex-machina-uk-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "Ex Machina:::2014": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ex-machina-uk-poster.jpg",
   "Minority Report:::2002": "https://upload.wikimedia.org/wikipedia/en/4/44/Minority_Report_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Tucker: The Man and His Dream:::1988": "https://upload.wikimedia.org/wikipedia/en/2/28/Tuckerposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Interstellar:::2014": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -50,7 +50,7 @@
   "Syrup:::2013": "https://upload.wikimedia.org/wikipedia/en/d/d6/Syrup_Official_Movie_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "House of Gucci:::2021": "https://upload.wikimedia.org/wikipedia/en/f/fe/House.of.Gucci.film.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "WeCrashed:::2022": "https://upload.wikimedia.org/wikipedia/en/0/02/WeCrashed_TV_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "The Dropout:::2022": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Dropout_Logo.png/330px-The_Dropout_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "The Dropout:::2022": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Dropout_Logo.png",
   "Glengarry Glen Ross:::1992": "https://upload.wikimedia.org/wikipedia/en/6/65/Glengarrymovie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "The Pursuit of Happyness:::2006": "https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Chocolat:::2000": "https://upload.wikimedia.org/wikipedia/en/0/08/Chocolat_sheet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -66,7 +66,7 @@
   "The Martian:::2015": "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Deepwater Horizon:::2016": "https://upload.wikimedia.org/wikipedia/en/6/66/Deepwater_Horizon_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Lord of War:::2005": "https://upload.wikimedia.org/wikipedia/en/9/92/Lordofwar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "12 Angry Men:::1957": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/12_Angry_Men_%281957_film_poster%29.jpg/330px-12_Angry_Men_%281957_film_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "12 Angry Men:::1957": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
   "Remember the Titans:::2000": "https://upload.wikimedia.org/wikipedia/en/d/d1/Remember_the_titansposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Whiplash:::2014": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Invictus:::2009": "https://upload.wikimedia.org/wikipedia/en/0/05/Invictus-poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -82,5 +82,5 @@
   "The Insider:::1999": "https://upload.wikimedia.org/wikipedia/en/1/10/The_insider_movie_poster_1999.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "The Post:::2017": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Post_%28film%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "Enron: The Smartest Guys in the Room:::2005": "https://upload.wikimedia.org/wikipedia/en/0/08/Smartestguysintheroom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "Dopesick:::2021": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/Dopesick_%28miniseries%29_Title_Card.png/330px-Dopesick_%28miniseries%29_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  "Dopesick:::2021": "https://upload.wikimedia.org/wikipedia/en/6/6e/Dopesick_%28miniseries%29_Title_Card.png"
 }
