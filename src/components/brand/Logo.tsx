@@ -129,7 +129,7 @@ export const Logo: React.FC<LogoProps> = ({
 
   if (asLink) {
     return (
-      <Link href={href} className="group inline-block hover:opacity-95 transition">
+      <Link href={href} className="group inline-flex flex-col justify-center hover:opacity-95 transition">
         {content}
       </Link>
     );

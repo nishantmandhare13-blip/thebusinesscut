@@ -35,12 +35,12 @@ export const Navbar: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between min-h-[5rem] sm:min-h-[5.25rem] py-3 sm:py-3.5">
           {/* Logo & Product Name with Tagline */}
           <div className="flex items-center gap-6">
-            <Logo asLink href="/" size="sm" showTagline variant="white-text" />
+            <Logo asLink href="/" size="sm" showTagline variant="white-text" className="py-1" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-1 ml-4" aria-label="Main Navigation">
