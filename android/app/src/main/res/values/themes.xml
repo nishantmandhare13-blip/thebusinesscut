@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.TheBusinessCut" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/canvas_dark</item>
+        <item name="android:navigationBarColor">@color/canvas_dark</item>
+        <item name="android:windowBackground">@color/canvas_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

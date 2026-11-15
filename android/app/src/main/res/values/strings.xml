@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The Business Cut</string>
+    <string name="tagline">Business, Scene by Scene</string>
+    <string name="sub_tagline">Learning TBC</string>
+    <string name="monogram_title">TBC • Continuous Executive Learning</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_paths">Paths</string>
+    <string name="nav_assignments">Assignments</string>
+    <string name="nav_instructor">Instructor</string>
+    <string name="nav_admin">Admin</string>
+</resources>
