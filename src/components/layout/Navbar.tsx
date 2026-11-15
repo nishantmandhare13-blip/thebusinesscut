@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { useLms } from '@/context/LmsContext';
 import { UserRole } from '@/types/lms';
+import { Logo } from '@/components/brand/Logo';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
@@ -59,21 +60,9 @@ export const Navbar: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo & Product Name */}
+          {/* Logo & Product Name with Tagline */}
           <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-3 group focus:outline-none">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:scale-105 transition">
-                <Film className="w-5 h-5 text-slate-950" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-serif text-lg font-bold tracking-tight text-slate-100 group-hover:text-amber-400 transition">
-                  The Business Cut
-                </span>
-                <span className="text-[10px] font-mono text-slate-400 -mt-0.5 tracking-wider uppercase">
-                  Film-Based MBA Learning
-                </span>
-              </div>
-            </Link>
+            <Logo asLink href="/" size="sm" showTagline variant="white-text" />
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-1 ml-4" aria-label="Main Navigation">

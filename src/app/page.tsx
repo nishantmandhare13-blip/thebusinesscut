@@ -20,6 +20,7 @@ import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { LessonCard } from '@/components/lessons/LessonCard';
 import { SubjectCategory } from '@/types/lms';
+import { Logo } from '@/components/brand/Logo';
 
 export default function HomePage() {
   const { lessons, learningPaths, switchRole } = useLms();
@@ -35,8 +36,19 @@ export default function HomePage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-amber-500/10 blur-[120px] rounded-full pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+          {/* Official Brand Logo with Tagline */}
+          <div className="flex justify-center mb-8">
+            <Logo
+              size="hero"
+              showTagline
+              variant="white-text"
+              className="items-center"
+              taglineClassName="text-xs sm:text-sm tracking-[0.22em] text-amber-400 font-bold mt-2"
+            />
+          </div>
+
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono font-medium mb-6 shadow-sm">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs font-mono font-medium mb-6 shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-amber-400" />
             <span>The Cinematic Case Method for MBA Product Managers</span>
           </div>
