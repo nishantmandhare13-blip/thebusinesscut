@@ -20,6 +20,7 @@ import {
 import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { LessonCard } from '@/components/lessons/LessonCard';
+import { TbcMonogram } from '@/components/brand/Logo';
 
 export default function StudentDashboardPage() {
   const {
@@ -96,6 +97,7 @@ export default function StudentDashboardPage() {
               <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/30">
                 MBA Candidate
               </span>
+              <TbcMonogram size="xs" subtext="Your Learning: TBC" />
             </div>
             <p className="text-xs text-slate-400 mt-1">
               {currentUser.mbaProgram} • {currentUser.specialization}
@@ -184,7 +186,7 @@ export default function StudentDashboardPage() {
               <div className="flex items-center gap-2 mb-1">
                 <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
                 <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold">
-                  Continue Where You Left Off
+                  Continue Where You Left Off • Learning: TBC
                 </span>
               </div>
               <h3 className="font-serif text-xl font-bold text-slate-100">

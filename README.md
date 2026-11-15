@@ -1,7 +1,7 @@
 # The Business Cut — Film-Based MBA & Product Management LMS
 
-> **Executive Pedagogy Meets Cinematic Storytelling.**  
-> An editorial-grade Learning Management System (LMS) designed for MBA students and Product Management leaders. *The Business Cut* uses iconic narrative films as strategic case studies for modern product discovery, organizational behavior, unit economics, negotiation, and executive decision-making.
+> **“Business, Scene by Scene. Learning, TBC.”**  
+> An editorial-grade Learning Management System (LMS) designed for MBA students and Product Management leaders. *The Business Cut (TBC)* uses iconic narrative films as strategic case studies for modern product discovery, organizational behavior, unit economics, negotiation, and executive decision-making.
 
 ---
 

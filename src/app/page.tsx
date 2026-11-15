@@ -43,14 +43,14 @@ export default function HomePage() {
               showTagline
               variant="white-text"
               className="items-center"
-              taglineClassName="text-xs sm:text-sm tracking-[0.22em] text-amber-400 font-bold mt-2"
+              taglineClassName="text-sm sm:text-base md:text-lg tracking-wide text-white font-serif font-black mt-3 drop-shadow-lg"
             />
           </div>
 
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs font-mono font-medium mb-6 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>The Cinematic Case Method for MBA Product Managers</span>
+          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs font-mono font-medium mb-6 shadow-sm">
+            <span className="font-mono font-black text-amber-400 bg-amber-500/20 px-1.5 py-0.5 rounded text-[10px]">TBC</span>
+            <span>The Business Cut • Continuous Executive Learning: TBC</span>
           </div>
 
           {/* Heading */}

@@ -1,12 +1,18 @@
 import React from 'react';
 import Link from 'next/link';
 import { Film, Shield, BookOpen, ExternalLink } from 'lucide-react';
-import { Logo } from '@/components/brand/Logo';
+import { Logo, TbcMonogram } from '@/components/brand/Logo';
+import { ClapperSignature } from '@/components/brand/ClapperSignature';
 
 export const Footer: React.FC = () => {
   return (
     <footer className="w-full border-t border-slate-800 bg-slate-950 text-slate-400 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        {/* Animated Brand Signature Lockup */}
+        <div className="mb-12">
+          <ClapperSignature />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           {/* Col 1: Product identity */}
           <div className="md:col-span-2 space-y-3">
@@ -15,8 +21,8 @@ export const Footer: React.FC = () => {
               A specialized executive learning management platform for MBA candidates and product management professionals. We use world-class cinema as case studies to teach high-stakes decision making, product discovery, capital allocation, and business ethics.
             </p>
             <div className="flex items-center gap-2 text-[11px] font-mono text-amber-300/80 pt-1">
-              <span className="w-2 h-2 rounded-full bg-emerald-400" />
-              <span>Academic Edition • 104 Distinct Seed Concepts</span>
+              <TbcMonogram size="xs" subtext="Continuous Learning" />
+              <span>• 104 Distinct Seed Concepts</span>
             </div>
           </div>
 

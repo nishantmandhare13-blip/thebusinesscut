@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
+import { TbcMonogram } from '@/components/brand/Logo';
 
 export default function LearningPathsPage() {
   const { learningPaths, lessons, progress } = useLms();
@@ -25,9 +26,7 @@ export default function LearningPathsPage() {
       {/* Header */}
       <div className="border-b border-slate-800 pb-6">
         <div className="flex items-center gap-2 mb-1">
-          <span className="p-1 rounded-md bg-amber-500/10 text-amber-400 border border-amber-500/20">
-            <BookOpen className="w-3.5 h-3.5" />
-          </span>
+          <TbcMonogram size="xs" subtext="Continuous Track: TBC" />
           <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold">
             Curated Executive Curricula
           </span>
