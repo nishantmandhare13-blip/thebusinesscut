@@ -6,6 +6,7 @@ import Link from 'next/link';
 interface LogoProps {
   variant?: 'white-text' | 'black-text';
   size?: 'sm' | 'md' | 'lg' | 'hero';
+  layout?: 'standard' | 'three-line';
   showTagline?: boolean;
   taglineClassName?: string;
   className?: string;
@@ -43,6 +44,7 @@ export const TbcMonogram: React.FC<{
 export const Logo: React.FC<LogoProps> = ({
   variant = 'white-text',
   size = 'md',
+  layout = 'standard',
   showTagline = true,
   taglineClassName = '',
   className = '',
@@ -54,41 +56,76 @@ export const Logo: React.FC<LogoProps> = ({
   const sizeClasses = {
     sm: {
       img: 'h-7 sm:h-8 w-auto object-contain',
-      tagline: 'text-[10px] tracking-wide'
+      tagline: 'text-[10px] sm:text-[11px] tracking-wide',
+      threeLineText: 'text-xs sm:text-sm tracking-wide'
     },
     md: {
       img: 'h-8 sm:h-9 w-auto object-contain',
-      tagline: 'text-[11px] tracking-wide'
+      tagline: 'text-[11px] sm:text-xs tracking-wide',
+      threeLineText: 'text-sm sm:text-base tracking-wide'
     },
     lg: {
       img: 'h-12 sm:h-14 w-auto object-contain',
-      tagline: 'text-xs sm:text-sm tracking-wide'
+      tagline: 'text-xs sm:text-sm tracking-wide',
+      threeLineText: 'text-base sm:text-lg md:text-xl tracking-wide'
     },
     hero: {
-      img: 'h-16 sm:h-24 md:h-28 w-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.6)]',
-      tagline: 'text-sm sm:text-base md:text-lg tracking-wider'
+      img: 'h-16 sm:h-20 md:h-24 lg:h-28 w-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.6)]',
+      tagline: 'text-sm sm:text-base md:text-lg tracking-wider',
+      threeLineText: 'text-lg sm:text-2xl md:text-3xl tracking-wide'
     }
   };
 
   const currentSize = sizeClasses[size];
+  const textColor = variant === 'black-text' ? 'text-slate-900' : 'text-white';
+  const goldColor = variant === 'black-text' ? 'text-amber-600' : 'text-amber-400';
 
-  const content = (
-    <div className={`flex flex-col items-start ${className}`}>
-      <img
-        src={imgSrc}
-        alt="The Business Cut (TBC)"
-        className={`${currentSize.img} transition`}
-      />
-      {showTagline && (
-        <p
-          className={`font-serif font-extrabold text-white leading-tight drop-shadow-md select-none mt-1 ${currentSize.tagline} ${taglineClassName}`}
+  let content: React.ReactNode;
+
+  if (layout === 'three-line') {
+    content = (
+      <div className={`flex flex-col items-start text-left ${className}`}>
+        {/* Line 1: Existing logo for The Business Cut */}
+        <img
+          src={imgSrc}
+          alt="The Business Cut"
+          className={`${currentSize.img} object-contain transition mb-2.5 sm:mb-3`}
+        />
+
+        {/* Line 2: Business, Scene by Scene in light text style */}
+        <span
+          className={`font-serif font-extrabold ${textColor} leading-tight drop-shadow-md select-none ${currentSize.threeLineText} ${taglineClassName}`}
         >
-          Business, Scene by Scene.{' '}
-          <span className="text-amber-400 font-black">Learning, TBC.</span>
-        </p>
-      )}
-    </div>
-  );
+          Business, Scene by Scene
+        </span>
+
+        {/* Line 3: Learning TBC in gold, guaranteed on one single line */}
+        <span
+          className={`font-serif font-black ${goldColor} leading-tight select-none whitespace-nowrap drop-shadow-md mt-1 sm:mt-1.5 ${currentSize.threeLineText}`}
+        >
+          Learning TBC
+        </span>
+      </div>
+    );
+  } else {
+    content = (
+      <div className={`flex flex-col items-start ${className}`}>
+        <img
+          src={imgSrc}
+          alt="The Business Cut (TBC)"
+          className={`${currentSize.img} transition`}
+        />
+        {showTagline && (
+          <p
+            className={`font-serif font-extrabold ${textColor} leading-tight drop-shadow-md select-none mt-1 ${currentSize.tagline} ${taglineClassName}`}
+          >
+            Business, Scene by Scene.{' '}
+            <span className={`${goldColor} font-black whitespace-nowrap`}>Learning TBC</span>
+          </p>
+        )}
+      </div>
+    );
+  }
 
   if (asLink) {
     return (

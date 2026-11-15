@@ -36,15 +36,16 @@ export default function HomePage() {
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[350px] bg-amber-500/10 blur-[120px] rounded-full pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          {/* Official Brand Logo with Tagline */}
-          <div className="flex justify-center mb-8">
-            <Logo
-              size="hero"
-              showTagline
-              variant="white-text"
-              className="items-center"
-              taglineClassName="text-sm sm:text-base md:text-lg tracking-wide text-white font-serif font-black mt-3 drop-shadow-lg"
-            />
+          {/* Official Brand Logo - Three-Line Left-Aligned Lockup */}
+          <div className="flex justify-center mb-10">
+            <div className="inline-flex flex-col items-start text-left">
+              <Logo
+                size="hero"
+                layout="three-line"
+                showTagline
+                variant="white-text"
+              />
+            </div>
           </div>
 
           {/* Badge */}
