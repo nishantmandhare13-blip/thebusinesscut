@@ -15,8 +15,7 @@ import {
   ChevronDown,
   Menu,
   X,
-  UserCheck,
-  RotateCcw
+  UserCheck
 } from 'lucide-react';
 import { useLms } from '@/context/LmsContext';
 import { UserRole } from '@/types/lms';
@@ -24,7 +23,7 @@ import { Logo } from '@/components/brand/Logo';
 
 export const Navbar: React.FC = () => {
   const pathname = usePathname();
-  const { currentRole, currentUser, switchRole, setIsOnboardingOpen, resetDemoData } = useLms();
+  const { currentRole, currentUser, switchRole, setIsOnboardingOpen } = useLms();
   const [roleMenuOpen, setRoleMenuOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -37,27 +36,6 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-md">
-      {/* Top Demo Notification Strip */}
-      <div className="bg-gradient-to-r from-amber-500/10 via-amber-500/15 to-amber-500/10 border-b border-amber-500/20 px-4 py-1 text-center text-[11px] font-mono text-amber-300/90 flex items-center justify-between">
-        <div className="mx-auto flex items-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-          <span>Demo Mode: 104 verified MBA cinematic case studies loaded. Local persistence active.</span>
-        </div>
-        <button
-          type="button"
-          onClick={() => {
-            if (confirm('Reset demo data back to default initial seed state?')) {
-              resetDemoData();
-            }
-          }}
-          className="hidden sm:inline-flex items-center gap-1 text-[10px] text-slate-400 hover:text-amber-300 transition"
-          title="Reset demo data"
-        >
-          <RotateCcw className="w-3 h-3" />
-          <span>Reset Demo</span>
-        </button>
-      </div>
-
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo & Product Name with Tagline */}
