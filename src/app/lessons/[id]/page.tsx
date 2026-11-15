@@ -24,6 +24,7 @@ import {
 import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { PosterPlaceholder } from '@/components/lessons/PosterPlaceholder';
+import { PosterImage } from '@/components/lessons/PosterImage';
 import { AudioCuePlayer } from '@/components/audio/AudioCuePlayer';
 
 export default function LessonDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -162,24 +163,14 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         <div className="grid grid-cols-1 md:grid-cols-3">
           {/* Left Poster / Visual Artwork */}
           <div className="p-6 md:p-8 flex flex-col items-center justify-center bg-slate-950/60 border-b md:border-b-0 md:border-r border-slate-800">
-            <div className="w-48 sm:w-56 rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
-              {lesson.imageAttribution?.posterPath ? (
-                <img
-                  src={lesson.imageAttribution.posterPath}
-                  alt={`${lesson.filmTitle} poster`}
-                  className="w-full h-auto object-cover"
-                  onError={(e) => {
-                    (e.target as HTMLElement).style.display = 'none';
-                  }}
-                />
-              ) : (
-                <PosterPlaceholder
-                  title={lesson.filmTitle}
-                  year={lesson.releaseYear}
-                  subject={subjectMeta.shortTitle}
-                  className="w-full"
-                />
-              )}
+            <div className="w-48 sm:w-56 rounded-xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950 aspect-[2/3]">
+              <PosterImage
+                posterPath={lesson.imageAttribution?.posterPath}
+                filmTitle={lesson.filmTitle}
+                releaseYear={lesson.releaseYear}
+                className="w-full h-full"
+                imageClassName="w-full h-full object-cover"
+              />
             </div>
 
             <div className="mt-4 text-center">

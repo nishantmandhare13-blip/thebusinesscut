@@ -6,6 +6,7 @@ import { Clock, Bookmark, CheckCircle2, ChevronRight, Sparkles } from 'lucide-re
 import { Lesson } from '@/types/lms';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { PosterPlaceholder } from './PosterPlaceholder';
+import { PosterImage } from './PosterImage';
 import { useLms } from '@/context/LmsContext';
 
 interface LessonCardProps {
@@ -33,18 +34,13 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, viewMode = 'grid
         {/* Left thumbnail & basic info */}
         <div className="flex items-center gap-4 min-w-0 flex-1">
           <div className="w-16 h-24 shrink-0 rounded-lg overflow-hidden border border-slate-800 bg-slate-950">
-            {lesson.imageAttribution?.posterPath ? (
-              <img
-                src={lesson.imageAttribution.posterPath}
-                alt={`${lesson.filmTitle} poster`}
-                className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                onError={(e) => {
-                  (e.target as HTMLElement).style.display = 'none';
-                }}
-              />
-            ) : (
-              <PosterPlaceholder title={lesson.filmTitle} year={lesson.releaseYear} className="w-full h-full p-1" />
-            )}
+            <PosterImage
+              posterPath={lesson.imageAttribution?.posterPath}
+              filmTitle={lesson.filmTitle}
+              releaseYear={lesson.releaseYear}
+              className="w-full h-full"
+              imageClassName="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
           </div>
 
           <div className="min-w-0 flex-1">
@@ -136,23 +132,13 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, viewMode = 'grid
       <div>
         {/* Poster / Artwork Header */}
         <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-950 border-b border-slate-800">
-          {lesson.imageAttribution?.posterPath ? (
-            <img
-              src={lesson.imageAttribution.posterPath}
-              alt={`${lesson.filmTitle} artwork`}
-              className="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100"
-              onError={(e) => {
-                (e.target as HTMLElement).style.display = 'none';
-              }}
-            />
-          ) : (
-            <PosterPlaceholder
-              title={lesson.filmTitle}
-              year={lesson.releaseYear}
-              subject={subjectMeta.shortTitle}
-              className="rounded-none border-none aspect-auto h-full"
-            />
-          )}
+          <PosterImage
+            posterPath={lesson.imageAttribution?.posterPath}
+            filmTitle={lesson.filmTitle}
+            releaseYear={lesson.releaseYear}
+            className="w-full h-full"
+            imageClassName="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90 group-hover:opacity-100"
+          />
 
           {/* Subject tag overlay */}
           <div className="absolute top-3 left-3 z-10 flex flex-wrap gap-1.5">

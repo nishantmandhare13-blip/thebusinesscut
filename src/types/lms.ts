@@ -60,7 +60,7 @@ export interface InstructorGuidance {
 }
 
 export interface ImageAttribution {
-  source: 'tmdb' | 'editorial_placeholder';
+  source: 'tmdb' | 'editorial_placeholder' | 'editorial_verified';
   license: string;
   notes: string;
   posterPath?: string | null;

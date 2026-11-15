@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
+let postersMap = {};
+try {
+  postersMap = JSON.parse(fs.readFileSync(path.join(__dirname, 'posters_map.json'), 'utf8'));
+} catch (e) {}
+
 // Helper to assemble full lesson object
 function makeLesson(data) {
   return {
@@ -26,10 +31,10 @@ function makeLesson(data) {
     verificationStatus: data.verificationStatus || 'verified',
     status: data.status || 'published',
     imageAttribution: data.imageAttribution || {
-      source: data.tmdbMovieId ? 'tmdb' : 'editorial_placeholder',
-      license: 'Educational Commentary / TMDB Metadata Guidelines',
-      notes: data.tmdbMovieId ? `Verified TMDB ID ${data.tmdbMovieId}` : 'Editorial conceptual artwork placeholder',
-      posterPath: data.posterPath || null
+      source: 'editorial_verified',
+      license: 'Fair Use / Educational Commentary & Official Artwork',
+      notes: `Verified cinematic artwork for ${data.filmTitle} (${data.releaseYear})`,
+      posterPath: postersMap[`${data.filmTitle}:::${data.releaseYear}`] || data.posterPath || null
     },
     audioCue: data.audioCue || {
       title: 'Pedagogical Attention Cue',

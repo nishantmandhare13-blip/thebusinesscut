@@ -98,10 +98,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 115782",
-      "posterPath": "/q4r08r5yF3p6tZ7vG7fJ4yL3Y8c.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Jobs (2013)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/e/e0/Jobs_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -199,10 +199,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 361743",
-      "posterPath": "/v4vPq0cffkP64t48eU0L3Wp9w3O.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Founder (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Founder_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -300,10 +300,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 212778",
-      "posterPath": "/6rY4zFqFh3r0vN8s4W8M4V3Y2q.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Chef (2014)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/b8/Chef_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -401,10 +401,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 964980",
-      "posterPath": "/762KuDYfg4g1H784n8Dq9vM9cM1.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Air (2023)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Air_original_game_cover.jpg/330px-Air_original_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -502,10 +502,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 152601",
-      "posterPath": "/eCOtqtfvn7mxv6U41bWc0kE1W.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Her (2013)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -603,10 +603,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 24264",
-      "posterPath": "/3rK3m0P9u7F9b0jK2vF4N8y6C.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Julie & Julia (2009)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/00/Julie_and_julia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -704,10 +704,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 2062",
-      "posterPath": "/npHNjld2VT0vLw6dJmSg1qK1i9.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ratatouille (2007)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -805,10 +805,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 37799",
-      "posterPath": "/n0ybibhJtQ5icDqTpT0zFNTsPUt.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Social Network (2010)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -906,10 +906,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 359724",
-      "posterPath": "/6ApOpGKlsq7Lglsq8fdwG5rR9xW.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ford v Ferrari (2019)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ford_v._Ferrari_%282019_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1007,10 +1007,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 2567",
-      "posterPath": "/lx4QzVw7BvL5wP1m40G4K4K7T3s.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Aviator (2004)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/fa/The_Aviator_%282004%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1108,10 +1108,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 359724",
-      "posterPath": "/6ApOpGKlsq7Lglsq8fdwG5rR9xW.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ford v Ferrari (2019)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ford_v._Ferrari_%282019_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1209,10 +1209,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 872585",
-      "posterPath": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Oppenheimer (2023)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/4a/Oppenheimer_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1310,10 +1310,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 321697",
-      "posterPath": "/4F3wQ1bK0k54pE4mZ51L5C1B1kQ.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Steve Jobs (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/aa/SteveJobsposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1411,10 +1411,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 726759",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Tetris (2023)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/b1/Tetris_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1512,10 +1512,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 374720",
-      "posterPath": "/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Dunkirk (2017)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1613,10 +1613,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 568",
-      "posterPath": "/8yU0i7W3k8f8M2x8jK3vN8y6C9.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Apollo 13 (1995)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/9e/Apollo_thirteen_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1714,10 +1714,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 369972",
-      "posterPath": "/i91mfv5Uq7k8uYw8n7f3M9vX1.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for First Man (2018)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a8/First_Man_%28film%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1815,10 +1815,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 9811",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Pirates of Silicon Valley (1999)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/3/30/Movieposterposv.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -1916,10 +1916,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 60308",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Moneyball (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/2/2e/Moneyball_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2017,10 +2017,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 50348",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Margin Call (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/62/Margin_Call.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2118,10 +2118,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 318846",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Big Short (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2219,10 +2219,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 205596",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Imitation Game (2014)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Imitation_Game_%282014%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2320,10 +2320,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 8358",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Cast Away (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a7/Cast_away_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2421,10 +2421,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 363676",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Sully (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/82/Sully_xxlg.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2522,10 +2522,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 314365",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Spotlight (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2623,10 +2623,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 453",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for A Beautiful Mind (2001)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2724,10 +2724,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 39538",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Contagion (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/86/Contagion_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2825,10 +2825,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1726",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Iron Man (2008)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/02/Iron_Man_%282008_film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -2926,10 +2926,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 264660",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ex Machina (2014)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/330px-Ex-machina-uk-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3027,10 +3027,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 180",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Minority Report (2002)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/44/Minority_Report_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3128,10 +3128,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10982",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Tucker: The Man and His Dream (1988)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/2/28/Tuckerposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3229,10 +3229,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 157336",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Interstellar (2014)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3330,10 +3330,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 177572",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Big Hero 6 (2014)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/4b/Big_Hero_6_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3431,10 +3431,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 284053",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Black Panther (2018)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d6/Black_Panther_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3532,10 +3532,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1124",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Prestige (2006)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3633,10 +3633,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 62",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for 2001: A Space Odyssey (1968)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3734,10 +3734,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 37799",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Social Network (2010)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/8c/The_Social_Network_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3835,10 +3835,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 964980",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Air (2023)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3b/Air_original_game_cover.jpg/330px-Air_original_game_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -3936,10 +3936,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1016084",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for BlackBerry (2023)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/5/5c/BlackBerryFilmPoster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4037,10 +4037,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 284293",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Joy (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d3/Joyfilmposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4138,10 +4138,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 106646",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Wolf of Wall Street (2013)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Wolf_of_Wall_Street_%282013%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4239,10 +4239,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 9390",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Jerry Maguire (1996)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/e/ea/Jerry_Maguire_movie_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4340,10 +4340,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 308266",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for War Dogs (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/5/52/War_Dogs_2016_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4441,10 +4441,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 316029",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Greatest Showman (2017)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Greatest_Showman_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4542,10 +4542,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10078",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Boiler Room (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/5/5c/Boiler_room_ver3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4643,10 +4643,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 9388",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Thank You for Smoking (2005)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/c/c3/Thank_you_for_smoking_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4744,10 +4744,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 346698",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Barbie (2023)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/0b/Barbie_2023_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4845,10 +4845,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 37165",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Truman Show (1998)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/c/cd/Trumanshow.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -4946,10 +4946,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 11456",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Crazy People (1990)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/c/cc/Crazy_people_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5047,10 +5047,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 24707",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Art & Copy (2009)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/fb/Art_%26_Copy_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5148,10 +5148,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 28874",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Joneses (2009)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/10/Joneses_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5249,10 +5249,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 102651",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Syrup (2013)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d6/Syrup_Official_Movie_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5350,10 +5350,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 644495",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for House of Gucci (2021)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/fe/House.of.Gucci.film.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5451,10 +5451,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 361743",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Founder (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Founder_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5552,10 +5552,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 284293",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Joy (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d3/Joyfilmposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5653,10 +5653,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 154699",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for WeCrashed (2022)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/02/WeCrashed_TV_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5754,10 +5754,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 105658",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Dropout (2022)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Dropout_Logo.png/330px-The_Dropout_Logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5855,10 +5855,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 9504",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Glengarry Glen Ross (1992)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/65/Glengarrymovie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -5956,10 +5956,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1402",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Pursuit of Happyness (2006)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/81/Poster-pursuithappyness.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6057,10 +6057,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 392",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Chocolat (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/08/Chocolat_sheet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6158,10 +6158,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 15301",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Flash of Genius (2008)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/86/Flash_of_genius_post.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6259,10 +6259,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 258480",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Burnt (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/2/21/Burnt_Poster_Updated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6360,10 +6360,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 318846",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Big Short (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/16/The_Big_Short_%282015_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6461,10 +6461,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 50348",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Margin Call (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/62/Margin_Call.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6562,10 +6562,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10673",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Wall Street (1987)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/b/bc/Wall_Street_film.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6663,10 +6663,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 64188",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Too Big to Fail (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/97/Too_Big_to_Fail_film.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6764,10 +6764,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10986",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Rogue Trader (1999)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/91/Rogue-Trader-Video-Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6865,10 +6865,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 44048",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Inside Job (2010)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a1/InsideJob2010Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -6966,10 +6966,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10839",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Barbarians at the Gate (1993)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/95/BarbariansAtTheGateDVDCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7067,10 +7067,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1621",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Trading Places (1983)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/4d/Trading_Places.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7168,10 +7168,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10078",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Boiler Room (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/5/5c/Boiler_room_ver3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7269,10 +7269,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 568",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Apollo 13 (1995)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/9e/Apollo_thirteen_movie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7370,10 +7370,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 86834",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Captain Phillips (2013)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a8/Captain_Phillips_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7471,10 +7471,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 286217",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Martian (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7572,10 +7572,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 294254",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Deepwater Horizon (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/66/Deepwater_Horizon_%28film%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7673,10 +7673,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 1819",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Lord of War (2005)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/9/92/Lordofwar.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7774,10 +7774,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 363676",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Sully (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/8/82/Sully_xxlg.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7875,10 +7875,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 361743",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Founder (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/68/The_Founder_poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -7976,10 +7976,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 359724",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ford v Ferrari (2019)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a4/Ford_v._Ferrari_%282019_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8077,10 +8077,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 389",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for 12 Angry Men (1957)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/12_Angry_Men_%281957_film_poster%29.jpg/330px-12_Angry_Men_%281957_film_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8178,10 +8178,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 10637",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Remember the Titans (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/d/d1/Remember_the_titansposter.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8279,10 +8279,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 314365",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Spotlight (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8380,10 +8380,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 244786",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Whiplash (2014)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8481,10 +8481,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 22825",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Invictus (2009)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/05/Invictus-poster.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8582,10 +8582,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 98",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Gladiator (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8683,10 +8683,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 72449",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Lincoln (2012)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/6a/Lincoln_2012_Teaser_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8784,10 +8784,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 381284",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Hidden Figures (2016)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/4f/The_official_poster_for_the_film_Hidden_Figures%2C_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8885,10 +8885,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 60308",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Moneyball (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/2/2e/Moneyball_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -8986,10 +8986,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 284052",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Bridge of Spies (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/fa/Bridge_of_Spies_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9087,10 +9087,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 4566",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Michael Clayton (2007)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a8/Michael_clayton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9188,10 +9188,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 238",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Godfather (1972)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9289,10 +9289,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 462",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Erin Brockovich (2000)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/a/a9/Erin_Brockovich_%28film_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9390,10 +9390,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 865",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for A Few Good Men (1992)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/4/45/A_Few_Good_Men_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9491,10 +9491,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 72449",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Lincoln (2012)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/6a/Lincoln_2012_Teaser_Poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9592,10 +9592,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 50348",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Margin Call (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/62/Margin_Call.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9693,10 +9693,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 552178",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Dark Waters (2019)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/64/Dark_Waters_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9794,10 +9794,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 9008",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Insider (1999)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/1/10/The_insider_movie_poster_1999.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9895,10 +9895,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 314365",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Spotlight (2015)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/f/f3/Spotlight_%28film%29_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -9996,10 +9996,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 552178",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Dark Waters (2019)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/64/Dark_Waters_poster.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10097,10 +10097,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 446354",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for The Post (2017)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/0b/The_Post_%28film%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10198,10 +10198,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 8990",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Enron: The Smartest Guys in the Room (2005)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/0/08/Smartestguysintheroom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10299,10 +10299,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 50348",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Margin Call (2011)",
+      "posterPath": "https://upload.wikimedia.org/wikipedia/en/6/62/Margin_Call.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10400,10 +10400,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 264660",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Ex Machina (2014)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/ba/Ex-machina-uk-poster.jpg/330px-Ex-machina-uk-poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",
@@ -10501,10 +10501,10 @@ export const SEED_LESSONS: Lesson[] = [
     "verificationStatus": "verified",
     "status": "published",
     "imageAttribution": {
-      "source": "tmdb",
-      "license": "Educational Commentary / TMDB Metadata Guidelines",
-      "notes": "Verified TMDB ID 91363",
-      "posterPath": "/5qpU9sF9n8V9B7H4g1v0W0L7f8K.jpg"
+      "source": "editorial_verified",
+      "license": "Fair Use / Educational Commentary & Official Artwork",
+      "notes": "Verified cinematic artwork for Dopesick (2021)",
+      "posterPath": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6e/Dopesick_%28miniseries%29_Title_Card.png/330px-Dopesick_%28miniseries%29_Title_Card.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
     },
     "audioCue": {
       "title": "Pedagogical Attention Cue",

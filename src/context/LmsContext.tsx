@@ -67,7 +67,7 @@ interface LmsContextType {
   requestAccountDeletion: () => void;
 }
 
-const STORAGE_KEY = 'the_business_cut_lms_v1';
+const STORAGE_KEY = 'the_business_cut_lms_v2';
 
 const DEFAULT_ADMIN_SETTINGS: AdminSettings = {
   tmdbApiKey: '',
@@ -104,8 +104,16 @@ export function LmsProvider({ children }: { children: ReactNode }) {
         if (parsed.currentUser) setCurrentUser(parsed.currentUser);
         if (parsed.allUsers) setAllUsers(parsed.allUsers);
         if (parsed.lessons && parsed.lessons.length > 0) {
-          // Merge seed updates with custom lessons
-          setLessons(parsed.lessons);
+          // Merge latest verified seed artwork with custom lessons
+          const seedMap = new Map(SEED_LESSONS.map(l => [l.id, l]));
+          const merged = parsed.lessons.map((pl: Lesson) => {
+            const seed = seedMap.get(pl.id);
+            if (seed && (!pl.imageAttribution?.posterPath || pl.imageAttribution.posterPath.startsWith('/q4r'))) {
+              return { ...pl, imageAttribution: seed.imageAttribution };
+            }
+            return pl;
+          });
+          setLessons(merged);
         }
         if (parsed.progress) setProgress(parsed.progress);
         if (parsed.submissions) setSubmissions(parsed.submissions);
