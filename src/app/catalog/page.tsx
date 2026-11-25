@@ -20,6 +20,7 @@ import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { LessonCard } from '@/components/lessons/LessonCard';
 import { SubjectCategory, DifficultyLevel, LessonFormat, VerificationStatus } from '@/types/lms';
+import { getDecisionPoint } from '@/data/decisionPoints';
 
 function CatalogContent() {
   const searchParams = useSearchParams();
@@ -81,8 +82,18 @@ function CatalogContent() {
         if (selectedDuration === 'long' && lesson.durationMinutes <= 40) return false;
 
         // Verification filter
-        if (selectedVerification !== 'all' && lesson.verificationStatus !== selectedVerification) {
-          return false;
+        if (selectedVerification !== 'all') {
+          const dp = getDecisionPoint(lesson.id);
+          const dpNeedsReview = dp?.verification === 'needs_review';
+          if (selectedVerification === 'needs_instructor_review') {
+            if (lesson.verificationStatus !== 'needs_instructor_review' && !dpNeedsReview) {
+              return false;
+            }
+          } else if (selectedVerification === 'verified') {
+            if (lesson.verificationStatus !== 'verified' || dpNeedsReview) {
+              return false;
+            }
+          }
         }
 
         return true;

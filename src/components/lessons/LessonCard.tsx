@@ -2,12 +2,13 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Clock, Bookmark, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
+import { Clock, Bookmark, CheckCircle2, ChevronRight, Sparkles, Play } from 'lucide-react';
 import { Lesson } from '@/types/lms';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { PosterPlaceholder } from './PosterPlaceholder';
 import { PosterImage } from './PosterImage';
 import { useLms } from '@/context/LmsContext';
+import { hasDecisionPoint } from '@/data/decisionPoints';
 
 interface LessonCardProps {
   lesson: Lesson;
@@ -56,6 +57,12 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, viewMode = 'grid
               {lesson.verificationStatus === 'verified' && (
                 <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                   Verified
+                </span>
+              )}
+              {hasDecisionPoint(lesson.id) && (
+                <span className="text-[9px] font-mono px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30 inline-flex items-center gap-1">
+                  <Play className="w-2.5 h-2.5 fill-current" />
+                  <span>Playable Decision</span>
                 </span>
               )}
             </div>
@@ -191,9 +198,17 @@ export const LessonCard: React.FC<LessonCardProps> = ({ lesson, viewMode = 'grid
             <span className="font-semibold text-slate-300">
               {lesson.filmTitle} ({lesson.releaseYear})
             </span>
-            <span className="text-[11px] px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400">
-              {lesson.format}
-            </span>
+            <div className="flex items-center gap-1.5">
+              {hasDecisionPoint(lesson.id) && (
+                <span className="text-[10px] px-1.5 py-0.5 rounded bg-amber-500/15 border border-amber-500/30 text-amber-300 inline-flex items-center gap-1">
+                  <Play className="w-2.5 h-2.5 fill-current" />
+                  <span>Playable</span>
+                </span>
+              )}
+              <span className="text-[11px] px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-400">
+                {lesson.format}
+              </span>
+            </div>
           </div>
 
           <Link href={`/lessons/${lesson.id}`} className="group-hover:text-amber-400 transition">

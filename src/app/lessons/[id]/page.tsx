@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, use } from 'react';
+import React, { useState, useEffect, use } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import {
@@ -19,19 +19,23 @@ import {
   ChevronUp,
   ExternalLink,
   Sparkles,
-  Info
+  Info,
+  Lock
 } from 'lucide-react';
 import { useLms } from '@/context/LmsContext';
 import { SUBJECT_METADATA } from '@/data/subjects';
 import { PosterPlaceholder } from '@/components/lessons/PosterPlaceholder';
 import { PosterImage } from '@/components/lessons/PosterImage';
 import { AudioCuePlayer } from '@/components/audio/AudioCuePlayer';
+import { DecisionPointSection } from '@/components/lessons/DecisionPointSection';
+import { getDecisionPoint } from '@/data/decisionPoints';
 
 export default function LessonDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = use(params);
   const { id } = resolvedParams;
 
   const {
+    currentRole,
     getLessonById,
     getLessonProgress,
     markLessonStatus,
@@ -45,6 +49,36 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
   const lesson = getLessonById(id);
   const progress = lesson ? getLessonProgress(lesson.id) : null;
   const existingSubmission = lesson ? getLessonSubmission(lesson.id) : null;
+  const decisionPoint = lesson ? getDecisionPoint(lesson.id) : undefined;
+
+  const [isDecisionLocked, setIsDecisionLocked] = useState(false);
+  const [isSkipped, setIsSkipped] = useState(false);
+
+  // Check if previously locked in localStorage on mount
+  useEffect(() => {
+    if (lesson) {
+      try {
+        const stored = localStorage.getItem(`tbc_decision_${lesson.id}`);
+        if (stored) {
+          setIsDecisionLocked(true);
+        }
+      } catch {
+        // ignore
+      }
+    }
+  }, [lesson]);
+
+  const isAnalysisUnlocked = !decisionPoint || isDecisionLocked || isSkipped;
+
+  const handleDecisionLocked = () => {
+    setIsDecisionLocked(true);
+    setTimeout(() => {
+      const el = document.getElementById('framework-analysis-section');
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 400);
+  };
 
   const [studentNotes, setStudentNotes] = useState(progress?.notes || '');
   const [assignmentText, setAssignmentText] = useState(existingSubmission?.content || '');
@@ -276,7 +310,44 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
         </div>
       </section>
 
-      {/* Section 2: Business Concept Breakdown */}
+      {/* Interactive Protagonist Decision Point */}
+      {decisionPoint && (
+        <DecisionPointSection
+          decisionPoint={decisionPoint}
+          frameworkName={lesson.framework.name}
+          currentRole={currentRole}
+          onDecisionLocked={handleDecisionLocked}
+        />
+      )}
+
+      {/* Downstream Gating */}
+      {!isAnalysisUnlocked ? (
+        <div className="rounded-2xl border border-amber-500/30 bg-gradient-to-b from-amber-950/20 to-slate-900/90 p-8 text-center space-y-4 shadow-lg">
+          <div className="w-12 h-12 mx-auto rounded-full bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-amber-400">
+            <Lock className="w-6 h-6" />
+          </div>
+          <div className="space-y-1">
+            <h3 className="font-serif text-xl font-bold text-slate-100">
+              Framework Analysis Locked
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-300 max-w-lg mx-auto">
+              Step into the protagonist&apos;s shoes above, make your decision, and lock it in to reveal the plain-language business analysis, execution steps for <strong>{lesson.framework.name}</strong>, reflection questions, and case assignment.
+            </p>
+          </div>
+          <div className="pt-2">
+            <button
+              type="button"
+              onClick={() => setIsSkipped(true)}
+              className="inline-flex items-center gap-1.5 text-xs font-mono text-amber-400 hover:text-amber-300 underline underline-offset-4 transition"
+            >
+              <span>Skip to analysis without choosing</span>
+              <span>→</span>
+            </button>
+          </div>
+        </div>
+      ) : (
+        <div id="framework-analysis-section" className="space-y-10">
+          {/* Section 2: Business Concept Breakdown */}
       <section className="space-y-3">
         <div className="flex items-center gap-2 border-b border-slate-800 pb-2">
           <Sparkles className="w-4 h-4 text-amber-400" />
@@ -588,6 +659,8 @@ export default function LessonDetailPage({ params }: { params: Promise<{ id: str
           </form>
         </div>
       </section>
+      </div>
+      )}
 
       {/* Section 7: Instructor Guidance & Teaching Notes */}
       <section className="p-6 rounded-2xl border border-slate-800 bg-slate-900/40 space-y-3 text-xs">
